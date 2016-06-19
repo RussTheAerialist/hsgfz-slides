@@ -1,6 +1,24 @@
-/* globals navigator, document, Reveal, window, alert */
+/* globals navigator, document, Reveal, window, alert, console, XMLHttpRequest */
 
 var videoStream = null;
+console.log('custom loaded');
+
+function triggerState(url) {
+    'use strict';
+
+    var xmlHttp = new XMLHttpRequest();
+    var promise = new Promise(function (resolve) {
+        xmlHttp.onreadystatechange = function() {
+            if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                resolve(xmlHttp.responseText);
+            }
+        };
+        xmlHttp.open('GET', url, true); // true for asynchronous
+        xmlHttp.send(null);
+    });
+
+    return promise;
+}
 
 function attachVideo(element)
 {
@@ -19,6 +37,11 @@ function attachVideo(element)
   }
 }
 
+function slideIs(slide, attr, value) {
+    'use strict';
+    return slide && slide.hasAttribute(attr) && slide.getAttribute(attr) === value;
+}
+
 Reveal.addEventListener('with-video', function() {
   'use strict';
   attachVideo('#videoElement');
@@ -26,11 +49,16 @@ Reveal.addEventListener('with-video', function() {
 
 Reveal.addEventListener('slidechanged', function(e) {
    'use strict';
-    if (e.previousSlide && e.previousSlide.hasAttribute('data-state') && e.previousSlide.getAttribute('data-state') === 'with-video')
+    if (slideIs(e.previousSlide, 'data-state', 'with-video'))
     { // Switched off of a slide with video, turn off video
         if (videoStream) {
             videoStream.stop();
             videoStream = null;
         }
+    }
+
+    if (slideIs(e.currentSlide, 'data-state', 'device-trigger') && e.currentSlide.hasAttribute('data-trigger-url')) {
+        var url = e.currentSlide.getAttribute('data-trigger-url');
+        triggerState(url);
     }
 });

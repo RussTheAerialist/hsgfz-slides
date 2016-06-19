@@ -25,8 +25,21 @@
                 "data-state": "with-video"
             }
         },
-        "j5-node-pixel-basics.html"
+        "j5-node-pixel-basics.html",
+        {
+            "filename": "rainbow-test.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/blink-test"
+            }
+        },
+        "static-code-is-boring.html"
     ],
-    "let-s-build.html"
-
+    [
+        "let-s-build.html",
+        "weather-station.html",
+        "forecast-io.html",
+        "temperature.html",
+        "will-it-rain.html"
+    ]
 ]

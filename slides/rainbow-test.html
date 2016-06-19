@@ -1,0 +1,19 @@
+<h2>Blink Test</h2>
+
+<pre><code data-trim data-noescape>
+var leds = false;
+function DoSomething() {
+  window.setInterval(loop, 100); // 10 frames per second
+}
+
+function loop() {
+  if (leds) {
+    strip.color('#000077');
+  } else {
+    strip.color('#000000');
+  }
+  strip.show();
+  leds = !leds;
+}
+
+</code></pre>
