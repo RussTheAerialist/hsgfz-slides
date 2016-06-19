@@ -1,0 +1,32 @@
+[
+    "index.md",
+    "exploration.html",
+    [
+        "leds.html",
+        "ws2812.html",
+        "ws2812-the-bad.html",
+        "apa102c.html",
+        "apa102c-the-bad.html"
+    ],
+    [
+        "assert-your-will.html",
+        "two-approaches.html",
+        "self-contained.html",
+        "self-contained-options.html",
+        "host-computer.html",
+        "host-device-comm.html",
+        "firmata-options.html"
+    ],
+    [
+        "j5-node-pixel.html",
+        {
+            "filename": "connecting.html",
+            "attr": {
+                "data-state": "with-video"
+            }
+        },
+        "j5-node-pixel-basics.html"
+    ],
+    "let-s-build.html"
+
+]

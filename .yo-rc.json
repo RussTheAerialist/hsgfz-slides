@@ -1,0 +1,8 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Happy Sparkle Glitter Fun Zone",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": false
+  }
+}
