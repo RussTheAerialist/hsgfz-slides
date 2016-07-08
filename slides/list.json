@@ -1,5 +1,18 @@
 [
-    "index.md",
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-transition": "none"
+        }
+    },
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-transition": "none",
+            "data-state": "device-trigger",
+            "data-trigger-url": "http://localhost:8000/glitter"
+        }
+    },
     "exploration.html",
     [
         "leds.html",
@@ -18,7 +31,13 @@
         "firmata-options.html"
     ],
     [
-        "j5-node-pixel.html",
+        {
+            "filename": "j5-node-pixel.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/rainbow"
+            }
+        },
         {
             "filename": "connecting.html",
             "attr": {
