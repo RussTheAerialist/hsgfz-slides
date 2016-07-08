@@ -31,17 +31,16 @@
         "firmata-options.html"
     ],
     [
+        "connecting.html",
+        "best-practices.html",
+        "wiggle-room.html"
+    ],
+    [
         {
             "filename": "j5-node-pixel.html",
             "attr": {
                 "data-state": "device-trigger",
                 "data-trigger-url": "http://localhost:8000/rainbow"
-            }
-        },
-        {
-            "filename": "connecting.html",
-            "attr": {
-                "data-state": "with-video"
             }
         },
         "j5-node-pixel-basics.html",
@@ -61,5 +60,6 @@
         "temperature.html",
         "will-it-rain.html"
     ],
+    "resources.md",
     "contact-me.html"
 ]
