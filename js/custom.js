@@ -56,10 +56,6 @@ Reveal.addEventListener('slidechanged', function(e) {
             videoStream = null;
         }
     }
-    
-    if (slideIs(e.previousSlide, 'data-state', 'device-trigger')) {
-        triggerState('http://localhost:8000/');
-    }
 
     if (slideIs(e.currentSlide, 'data-state', 'device-trigger') && e.currentSlide.hasAttribute('data-trigger-url')) {
         var url = e.currentSlide.getAttribute('data-trigger-url');

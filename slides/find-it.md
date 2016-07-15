@@ -1,4 +1,4 @@
 ## Find This talk
 
-* [Slides](http://github.com/RussTheAerialist/hsgfz-slides)
-* [Demo Code](http://github.com/RussTheAerialist/hsgfz-demo)
+* [RussTheAerialist/hsgfz-slides](http://github.com/RussTheAerialist/hsgfz-slides)
+* [RussTheAerialist/hsgfz-demo](http://github.com/RussTheAerialist/hsgfz-demo)

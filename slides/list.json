@@ -13,9 +13,18 @@
             "data-trigger-url": "http://localhost:8000/glitter"
         }
     },
-    "exploration.html",
     [
-        "leds.html",
+        "exploration.html",
+        "agenda.md"
+    ],
+    [
+        {
+            "filename": "leds.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/"
+            }
+        },
         "ws2812.html",
         "ws2812-the-bad.html",
         "apa102c.html",
@@ -26,9 +35,20 @@
         "two-approaches.html",
         "self-contained.html",
         "self-contained-options.html",
+        "not-gonna-do-it.md",
         "host-computer.html",
-        "host-device-comm.html",
-        "firmata-options.html"
+        {
+            "filename": "firmata-options.html",
+            "attr": {
+                "data-transition": "fade-out"
+            }
+        },
+        {
+            "filename": "firmata-options-choice.html",
+            "attr": {
+                "data-transition": "fade"
+            }
+        }
     ],
     [
         "connecting.html",
@@ -51,16 +71,23 @@
                 "data-trigger-url": "http://localhost:8000/blink-test"
             }
         },
-        "static-code-is-boring.html"
+        {
+            "filename": "static-code-is-boring.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/"
+            }
+        }
     ],
     [
         "let-s-build.html",
         "weather-station.html",
         "forecast-io.html",
         "temperature.html",
-        "will-it-rain.html"
+        "will-it-rain.html",
+        "what-next.html"
     ],
-    "resources.md",
     "contact-me.html",
+    "resources.md",
     "find-it.md"
 ]
