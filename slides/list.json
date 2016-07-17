@@ -22,7 +22,7 @@
             "filename": "leds.html",
             "attr": {
                 "data-state": "device-trigger",
-                "data-trigger-url": "http://localhost:8000/"
+                "data-trigger-url": "http://localhost:8000/glitter/990000"
             }
         },
         "ws2812.html",
@@ -31,7 +31,13 @@
         "apa102c-the-bad.html"
     ],
     [
-        "assert-your-will.html",
+        {
+            "filename": "assert-your-will.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/glitter/999900"
+            }
+        },
         "two-approaches.html",
         "self-contained.html",
         "self-contained-options.html",
