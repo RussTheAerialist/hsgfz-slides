@@ -26,6 +26,12 @@
             }
         },
         "ws2812.html",
+        {
+            "filename": "ws2812-options.md",
+            "attr": {
+                "data-background": "/resources/ws2812-options.png"
+            }
+        },
         "ws2812-the-bad.html",
         "apa102c.html",
         "apa102c-the-bad.html"
