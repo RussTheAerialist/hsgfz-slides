@@ -64,6 +64,8 @@
     ],
     [
         "connecting.html",
+        "lightstick-board.md",
+        "lightstick-connections.md",
         "best-practices.html",
         "wiggle-room.html"
     ],
