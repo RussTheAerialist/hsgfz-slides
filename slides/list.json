@@ -15,7 +15,8 @@
     },
     [
         "exploration.html",
-        "agenda.md"
+        "agenda.md",
+        "wiifm.md"
     ],
     [
         {
@@ -63,11 +64,21 @@
         }
     ],
     [
-        "connecting.html",
-        "lightstick-board.md",
-        "lightstick-connections.md",
         "best-practices.html",
-        "wiggle-room.html"
+        "wiggle-room.html",
+        "connecting.html",
+        {
+            "filename": "lightstick-board.md",
+            "attr": {
+                "data-transition": "fade-out"
+            }
+        },
+        {
+            "filename": "lightstick-board-labeled.md",
+            "attr": {
+                "data-transition": "fade"
+            }
+        }
     ],
     [
         {
@@ -101,7 +112,6 @@
         "will-it-rain.html",
         "what-next.html"
     ],
-    "contact-me.html",
     "resources.md",
     "find-it.md"
 ]

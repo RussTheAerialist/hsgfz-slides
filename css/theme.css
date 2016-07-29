@@ -7,6 +7,10 @@
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
+.reveal pre code {
+  font-size: 1.25rem;
+  line-height: 1.4rem; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -16,7 +20,7 @@ body {
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 38px;
+  font-size: 46px;
   font-weight: normal;
   color: #222; }
 

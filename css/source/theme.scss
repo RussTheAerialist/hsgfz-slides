@@ -26,7 +26,7 @@ $backgroundColor: #fff;
 $mainColor: #222;
 $headingColor: #222;
 
-$mainFontSize: 38px;
+$mainFontSize: 46px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
@@ -46,6 +46,11 @@ section.has-light-background {
 	&, h1, h2, h3, h4, h5, h6 {
 		color: #222;
 	}
+}
+
+.reveal pre code {
+    font-size: 1.25rem;
+    line-height: 1.4rem;
 }
 
 // Theme template ------------------------------

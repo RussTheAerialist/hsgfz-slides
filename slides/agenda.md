@@ -1,5 +1,5 @@
-## WIIFM?
+## On the docket
 
-* A place to start
-* Enough knowledge to play
-* Inspiration to make something
+* Options for LEDS
+* Options for controlling them
+* Build a lighting rod with J5 + node-pixel
