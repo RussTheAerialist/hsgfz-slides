@@ -67,6 +67,7 @@
         "best-practices.html",
         "wiggle-room.html",
         "connecting.html",
+        "bom.html",
         {
             "filename": "lightstick-board.md",
             "attr": {
@@ -107,6 +108,7 @@
     [
         "let-s-build.html",
         "weather-station.html",
+        "requirements.md",
         "forecast-io.html",
         "temperature.html",
         "will-it-rain.html",
