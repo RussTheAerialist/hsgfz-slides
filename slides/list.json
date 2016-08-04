@@ -1,0 +1,119 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-transition": "none"
+        }
+    },
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-transition": "none",
+            "data-state": "device-trigger",
+            "data-trigger-url": "http://localhost:8000/glitter"
+        }
+    },
+    [
+        "exploration.html",
+        "agenda.md",
+        "wiifm.md"
+    ],
+    [
+        {
+            "filename": "leds.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/glitter/990000"
+            }
+        },
+        "ws2812.html",
+        {
+            "filename": "ws2812-options.md",
+            "attr": {
+                "data-background": "/resources/ws2812-options.png"
+            }
+        },
+        "ws2812-the-bad.html",
+        "apa102c.html",
+        "apa102c-the-bad.html"
+    ],
+    [
+        {
+            "filename": "assert-your-will.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/glitter/999900"
+            }
+        },
+        "two-approaches.html",
+        "self-contained.html",
+        "self-contained-options.html",
+        "not-gonna-do-it.md",
+        "host-computer.html",
+        {
+            "filename": "firmata-options.html",
+            "attr": {
+                "data-transition": "fade-out"
+            }
+        },
+        {
+            "filename": "firmata-options-choice.html",
+            "attr": {
+                "data-transition": "fade"
+            }
+        }
+    ],
+    [
+        "best-practices.html",
+        "wiggle-room.html",
+        "connecting.html",
+        "bom.html",
+        {
+            "filename": "lightstick-board.md",
+            "attr": {
+                "data-transition": "fade-out"
+            }
+        },
+        {
+            "filename": "lightstick-board-labeled.md",
+            "attr": {
+                "data-transition": "fade"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "j5-node-pixel.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/rainbow"
+            }
+        },
+        "j5-node-pixel-basics.html",
+        {
+            "filename": "rainbow-test.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/blink-test"
+            }
+        },
+        {
+            "filename": "static-code-is-boring.html",
+            "attr": {
+                "data-state": "device-trigger",
+                "data-trigger-url": "http://localhost:8000/"
+            }
+        }
+    ],
+    [
+        "let-s-build.html",
+        "weather-station.html",
+        "requirements.md",
+        "forecast-io.html",
+        "temperature.html",
+        "will-it-rain.html",
+        "what-next.html"
+    ],
+    "resources.md",
+    "find-it.md"
+]
